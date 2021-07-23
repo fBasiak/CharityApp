@@ -23,11 +23,11 @@ private Long id;
 @Column(name = "quantity")
 @NotNull
 private Integer quantity;
+@ManyToMany
+@JoinColumn(name = "categories_id")
+private List<Category> categories = new ArrayList<>();
 @ManyToOne
-@JoinColumn(name = "categories")
-private Category category;
-@ManyToOne
-@JoinColumn(name="institutions")
+@JoinColumn(name="institutions_id")
 private Institution institution;
 @Column(name = "street")
 private String street;
