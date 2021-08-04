@@ -15,7 +15,7 @@
     <description>Charity project, created with love in CodersLab</description>
 
     <properties>
-        <java.version>8</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
@@ -84,11 +84,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
                 <configuration>
-                    <source>9</source>
-                    <target>9</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
