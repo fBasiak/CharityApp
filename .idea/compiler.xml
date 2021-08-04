@@ -11,12 +11,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="charity" target="1.7" />
+      <module name="charity" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="charity" options="-parameters" />
+      <module name="charity" options="-parameters -Xlint:unchecked" />
     </option>
   </component>
 </project>
