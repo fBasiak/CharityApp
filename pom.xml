@@ -15,7 +15,7 @@
     <description>Charity project, created with love in CodersLab</description>
 
     <properties>
-        <java.version>1.8.0_302</java.version>
+        <java.version>11.0.9</java.version>
     </properties>
 
 
@@ -88,8 +88,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.6.2</version>
                 <configuration>
-                    <source>1.11</source>
-                    <target>1.11</target>
+                    <source>11.0.9</source>
+                    <target>11.0.9</target>
                     <showDeprecation>true</showDeprecation>
                     <compilerArgument>-Xlint:unchecked</compilerArgument>
                 </configuration>
