@@ -6,6 +6,6 @@ import pl.coderslab.charity.domain.model.Donation;
 
 
 public interface DonationRepository extends JpaRepository<Donation, Long> {
-    @Query("Select count(d.quantity) from Donation d")
+    @Query("Select sum(d.quantity) from Donation d")
     int countBags();
 }
