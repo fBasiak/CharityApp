@@ -1,10 +1,10 @@
 # CharityApp
-Aplikacja służy do przekazywania darów na rzecz wybranej fundacji. 
-Zastosowane technologie:
--Spring Boot
--Spring Form
--Hibernate
--Spring Data JPA
--Spring Security
--Spring MVC
--MySQL Database
+Aplikacja służy do przekazywania darów na rzecz wybranej fundacji. </br>
+Zastosowane technologie:</br>
+-Spring Boot</br>
+-Spring Form</br>
+-Hibernate</br>
+-Spring Data JPA</br>
+-Spring Security</br>
+-Spring MVC</br>
+-MySQL Database</br>
