@@ -7,17 +7,12 @@ import pl.coderslab.charity.domain.model.User;
 import pl.coderslab.charity.domain.repository.UserRepository;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Service
 @Transactional
-@Slf4j
-@RequiredArgsConstructor
-public class UserService {
-    private final UserRepository userRepository;
 
-    public void addUser(User user){
-        log.debug("Zapisywany: " + user);
-        userRepository.save(user);
-        log.debug("Zapisano: " + user);
-    }
+public interface UserService {
+  void addUser(User userAdd);
+  List<User> findAll();
 }

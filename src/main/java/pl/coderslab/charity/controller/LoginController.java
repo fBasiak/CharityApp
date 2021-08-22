@@ -23,7 +23,7 @@ public class LoginController {
         if (bindingResult.hasErrors()) {
             return "redirect:/login";
         }
-        return "redirect:/";
+        return "redirect:form";
     }
 }
 

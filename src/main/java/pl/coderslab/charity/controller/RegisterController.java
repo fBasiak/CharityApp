@@ -32,7 +32,7 @@ private final UserService userService;
             return "redirect:/register";
         }
         userService.addUser(user);
-        return "redirect:login";
+        return "redirect:/login";
     }
 }
 

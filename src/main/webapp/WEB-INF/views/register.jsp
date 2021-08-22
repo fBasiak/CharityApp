@@ -32,17 +32,17 @@
 
     <section class="login-page">
       <h2>Załóż konto</h2>
-      <form:form modelAttribute="user" method="post">
+      <form:form  method="post" modelAttribute="user">
         <div class="form-group">
           <form:input path="email" placeholder="Email" />
         </div>
         <div class="form-group">
           <form:input type="password" path="password" placeholder="Hasło" />
         </div>
-        <div class="form-group">
-          <form:input type="password" path="password2" placeholder="Powtórz hasło" />
+        <!--  <div class="form-group">
+          <form type="password" path="password2" placeholder="Powtórz hasło" />
         </div>
-
+-->
         <div class="form-group form-group--buttons">
           <a href="/login" class="btn btn--without-border">Zaloguj się</a>
           <form:button class="btn" type="submit">Załóż konto</form:button>
